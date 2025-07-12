@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    int a=7;
+    cout<<a<<" ";
+    int sum1,sum2;
+    for(int i=1;i<n;i++)
+    {
+        if(i%2!=0)
+        {
+            sum1=a-2;
+            cout<<sum1<<" ";
+            a=sum1;
+        }
+        else
+        {
+            sum2=a+3;
+            cout<<sum2<<" ";
+            a=sum2;
+        }
+    }
+    return 0;
+}
