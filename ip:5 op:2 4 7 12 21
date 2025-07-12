@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int n;
+    cin>>n;
+    cout<<"2"<<" "<<"4"<<" ";
+    int sum=4,count=2;
+    for(int i=1;i;i++)
+    {
+        sum=sum+sum-i;
+        cout<<sum<<" ";
+        count++;
+        if(count==n)
+        {
+            break;
+        }
+    }
+    return 0;
+}
